@@ -148,7 +148,7 @@
 
 
 
- /* header media quyere */
+ /* small device media quyere */
 
 
  @media screen and (max-width:576px) {
@@ -187,8 +187,8 @@
  }
 
  /* medium size device */
- @media screen and (min-width:576px) and (max-width:992px) {
 
+ @media screen and (min-width: 576px) and (max-width: 992px) {
   .nav-bar{
     padding: 20px;
   }
