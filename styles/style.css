@@ -122,9 +122,10 @@
  }
 
  .Quick-list {
-   color: rgba(114, 114, 114, 1); ;
-  font-size: 2.81rem;
-  font-weight: 500;
+   color: rgba(114, 114, 114, 1);
+   ;
+   font-size: 2.81rem;
+   font-weight: 500;
  }
 
  .Features {
@@ -170,18 +171,34 @@
      font-size: 0.75rem;
      padding: 19px 21px;
    }
-   .team-img-container{
-  grid-template-columns: repeat(1, 1fr);
-}
 
-   .teams{
-    flex-direction: column;
+   .team-img-container {
+     grid-template-columns: repeat(1, 1fr);
+   }
+
+   .teams {
+     flex-direction: column;
    }
 
    .our-future {
-    max-width: 100%;
-    margin-left: 0px;
-    margin-top: 20px;
-}
+     max-width: 100%;
+     margin: 20px auto;
+   }
+ }
+
+ /* medium size device */
+ @media screen and (min-width:576px) and (max-width:992px) {
+
+  .nav-bar{
+    padding: 20px;
+  }
+   .teams {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+   }
+   .our-future{
+    margin: 40px auto;
+   }
 
  }
