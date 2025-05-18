@@ -365,7 +365,13 @@ font-size: 20px;
 
  @media screen and (min-width: 576px) and (max-width: 992px) {
   .nav-bar{
-    padding: 20px;
+    padding: 0px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-items{
+    padding: 0% ;
   }
    .teams {
      display: flex;
@@ -379,7 +385,7 @@ font-size: 20px;
   flex-direction: column;
 }
 .features-content{
-  margin: 0px;
+  margin: 20px;
   width: 100%;
  
 }
