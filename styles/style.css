@@ -195,6 +195,9 @@
 
  .features-box-model {
    height: 171px;
+   padding: 30px;
+   margin-bottom: 20px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.09);
  }
 
  .model-title {
